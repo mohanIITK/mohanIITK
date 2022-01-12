@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @mohanIITK
+- 👋 Hi, I’m @mohanlallothiya
 - Actively looking for a full-time job opportunity to start my career in the software industry where I can learn new technologies as well as grow. 
 - Passionate about working in the field of web development. 
 - I have good experience in front-end web development, such as static webpages design, responsive webpages using Bootstrap, dynamic webpages using JavaScript. 
