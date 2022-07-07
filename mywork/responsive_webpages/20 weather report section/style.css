@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.mainContainer {
+    background-image: linear-gradient(to bottom, #b96fa1, #5a3f8c);
+    background-size: cover;
+    padding: 20px;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+.mainImage {
+    width: 150px;
+    height: 100px;
+}
+.img2 {
+    width: 50px;
+    height: 50px;
+}
+
+.topCon {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-bottom: 20px;
+    padding:10px 40px;
+}
+
+.city {
+    font-size: 20px;
+    color: white;
+    font-family: "Roboto";
+}
+
+.cityWeather {
+    font-size: 20px;
+    color: white;
+    font-family: "Roboto";
+}
+
+.humidity {
+    font-size: 15px;
+    color: white;
+    font-family: "Roboto";
+}
+
+.dailyReportCon {
+    border: 1px solid #e9e9e930;
+    border-radius: 15px;
+    background-color: #e9e9e930;
+    width:90vw;
+}
+
+.dailyReport {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #e9e9e930;
+}
+
+.noborder {
+    border-bottom: none;
+}
+
+.temp {
+    display: flex;
+    flex-direction: column;
+}
+
+.temp1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+.temp2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: white;
+    font-size: 14px;
+    font-family: "Roboto";
+}
+
+.day,
+.weather {
+    color: white;
+    font-size: 14px;
+    font-family: "Roboto";
+}
+
+@media(min-width:900px) {
+    .mainContainer {
+        height: 80vh;
+        padding:30px;
+    }
+    .topCon {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    .mainImage {
+        width: 250px;
+        height: 150px;
+        margin-left:150px;
+    }
+    .dailyReportCon {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: transparent;
+        border: none;
+    }
+
+    .dailyReport {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: none;
+    }
+
+    .temp {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .city {
+        font-size: 35px;
+    }
+
+    .cityWeather {
+        font-size: 25px;
+    }
+
+    .humidity {
+        font-size: 20px;
+    }
+    .temp1 {     
+        font-size: 20px;
+    }
+
+    .temp2 {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .day,
+    .weather {
+        font-size: 20px;
+    }
+
+}

@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.mainContainer {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.heading {
+    color: #ff6e30;
+    font-family: "Roboto";
+    margin-bottom: 0px;
+    text-align:center;
+}
+
+.descMain {
+    color: #e2e8f0;
+    font-family: "Roboto";
+    text-align:center;
+}
+.desc {
+    color: #e2e8f0;
+    font-family: "Roboto";
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.cardEl {
+    padding: 10px;
+    background-color: #2c353d;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.logo {
+    width: 30px;
+    align-self: flex-end;
+}
+
+.priceContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+}
+
+.price {
+    font-size: 30px;
+    font-family: "Roboto";
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+.month {
+    font-size: 10px;
+    font-family: "Roboto";
+    color: white;
+    margin-bottom: 10px;
+}
+
+.desc {
+    color: white;
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.list {
+    padding-left: 20px;
+    margin-top: 0px;
+    flex-grow: 1;
+}
+
+.list li {
+    color: #e2e8f0;
+    margin-bottom: 10px;
+}
+
+.startedBtn {
+    color: #2d3748;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn2 {
+    background-color: #ff6e30;
+    color: white;
+}
+@media(min-width:992px){
+    .mainContainer {
+        align-items: center;
+        padding: 50px 15px;
+    }
+}

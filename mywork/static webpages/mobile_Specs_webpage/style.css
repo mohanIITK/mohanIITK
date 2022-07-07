@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.div {
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid #707070;
+    font-family: "Roboto";
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.heading {
+    font-size: 60px;
+}
+.bt {
+    margin-top:50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding:10px 20px;
+    font-size:35px;
+}
+.im {
+    margin-left:auto;
+    margin-right:auto;
+    height: 40vh;
+    width:99vw;
+}
+.spec {
+    padding: 25px;
+}
+li{
+  margin:25px;
+  font-size:40px;
+}
+@media(min-width:992px){
+ .div{   
+     width: 500px;
+  }
+  .im {
+    height: 40vh;
+    width:497px;
+  }
+ .heading {
+    font-size: 36px;
+  }
+  .spec {
+    padding: 15px;
+   }
+  .bt{
+    margin-top:30px;
+    padding:5px 10px;
+    font-size:18px;
+  }
+  li{
+    margin:10px;
+    font-size:20px;
+  }
+}

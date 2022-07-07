@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottomContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #12022f;
+    padding: 20px;
+}
+
+.topContainer {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/design-section-sm-bg.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.bulb {
+    width: 100px;
+}
+
+.heading {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 30px;
+    margin-top:0px;
+}
+
+.propertiesCon {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.propertyEl {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.textCon {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading2 {
+    color: #12022f;
+    font-family: "Roboto";
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.desc2 {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 14px;
+    margin-top: 0px;
+
+}
+
+@media(min-width:768px) {
+    .mainContainer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .topContainer {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/design-section-lg-bg.png");
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .bulb {
+        width: 150px;
+    }
+    .bottomContainer{
+        justify-content:center;
+        padding:30px;
+    }
+    .heading {
+        font-size: 30px;
+        margin-bottom:30px;
+    }
+
+    .heading2 {
+        margin-bottom: 20px;
+    }
+    .desc2 {
+        font-size: 18px;
+    }
+    .textCon {
+        margin-bottom: 20px;
+    }
+}

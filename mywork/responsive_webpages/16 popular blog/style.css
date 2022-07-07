@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.mainContainer {
+    background-color: #95b2ff;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.subContainer {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+}
+
+.topHeadingCon h1 {
+    font-family: "Roboto";
+    color: #12022f;
+}
+
+.heading1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.heading2 {
+    font-size: 30px;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 10px;
+}
+
+.bottomCon {
+    display: flex;
+    flex-direction: column;
+}
+
+.marketing {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-marketing-strategies-sm-bg.png");
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px;
+    height: auto;
+    flex-grow: 1;
+    border-radius: 15px;
+
+}
+
+.coffee {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-coffee-bg.png");
+    background-size: cover;
+}
+
+.fruits {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-fruits-bg.png");
+    background-size: cover;
+
+}
+
+.laptop {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-laptop-sm-bg.png");
+
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px;
+    border-radius: 15px;
+
+}
+
+.nature {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-nature-bg.png");
+
+    background-size: cover;
+
+
+}
+
+.interior {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-interior-bg.png");
+    background-size: cover;
+
+
+}
+
+.other {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.headingx {
+    color: white;
+    font-family: "Roboto";
+    font-size: 26px;
+    margin-bottom: 100px;
+}
+
+.btnEl {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-family: "Roboto";
+    margin-bottom: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .heading2 {
+        text-align: center;
+    }
+
+    .bottomCon {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .marketing {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-marketing-strategies-lg-bg.png");
+        width: 90%;
+        flex-grow: 1;
+        padding: 30px;
+        border-radius: 20px;
+    }
+
+    .other {
+        width: 46%;
+        flex-grow: 1;
+        padding: 30px;
+        border-radius: 20px;
+    }
+
+    .laptop {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-laptop-lg-bg.png");
+        width: 90%;
+        flex-grow: 1;
+        padding: 30px;
+        border-radius: 20px;
+
+    }
+
+    .headingx {
+        margin-bottom: 200px;
+
+    }
+
+}
+
+@media(min-width:1200px) {
+    .heading1 {
+        text-align: left;
+    }
+
+    .heading2 {
+        padding: 0px;
+    }
+
+    .subContainer {
+        width: 70%;
+        padding: 20px;
+    }
+
+    .topHeadingCon {
+        text-align: left;
+        padding: 20px;
+    }
+
+    .bottomCon {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .marketing {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-marketing-strategies-lg-bg.png");
+        width: 46%;
+        flex-grow: 1;
+    }
+
+    .laptop {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-laptop-lg-bg.png");
+        flex-grow: 1;
+        width: 47%;
+        order: 1;
+
+    }
+
+    .other {
+        width: 21%;
+        flex-grow: 1;
+    }
+}

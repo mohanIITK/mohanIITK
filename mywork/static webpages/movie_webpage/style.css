@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.div {
+    height:100vh;
+    width: 100vw;
+    color: white;
+    padding: 20px;
+    font-family: "Roboto";
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/orange-color-bg.png");
+    margin-left:auto;
+    margin-right:auto;
+}
+.car {
+    margin-bottom: 10px;
+    height:45vh;
+}
+.image{
+    height:45vh;
+}
+.h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.h2 {
+    font-size: 50px;
+}
+
+.p1 {
+    font-size: 35px;
+}
+
+.watch {
+    color: #ff8348;
+    background-color: white;
+    text-align: right;
+    font-size: 30px;
+}
+.im{
+   width:250px;
+   height:350px;
+}
+
+@media(min-width:992px){
+ .div{   
+     width: 500px;
+     padding:10px;
+  }
+.h1 {
+    font-size: 25px;
+}
+
+.h2 {
+    font-size: 20px;
+}
+
+.p1 {
+    font-size: 14px;
+}
+
+.watch {
+    font-size: 14px;
+}
+.im{
+   width:150px;
+   height:190px;
+}
+}

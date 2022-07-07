@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.div {
+    background-color: #225db0;
+    font-family: "Roboto";
+    padding: 30px;
+    height: 100vh;
+    width: 100vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+.div1 {
+    background-color: #225db0;
+    font-family: "Roboto";
+    padding: 150px 30px;
+    height: 100vh;
+    width:100vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.icon {
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    height: 26vh;
+    width: 38vw;
+}
+
+.im_icon {
+    height: 15vh;
+    width: 15vw;
+}
+
+.p_p {
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.h_main {
+    color: white;
+    font-size: 60px;
+    margin-left: 10px;
+}
+
+.list_of_topic {
+    color: white;
+    font-size: 60px;
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+.list_item {
+    padding: 10px;
+    color: white;
+    font-size: 40px;
+}
+
+.p_main {
+    color: white;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-bottom:30px;
+}
+
+.back {
+    border: 1px solid white;
+    color: white;
+    font-size: 50px;
+    margin-top:40px;
+    border-radius: 0px;
+    padding:10px 30px;
+}
+@media(min-width:768px){
+    .div1 {
+        padding: 80px 20px;
+    }
+}
+@media(min-width:992px){
+    .div {
+        width: 450px;
+        padding: 20px;
+    }
+    .div1 {
+        width: 450px;
+        padding: 100px 20px;
+    }
+
+    .icon {
+        padding: 25px;
+        margin: 10px;
+        height: 23vh;
+        width: 35vw;
+    }
+
+    .im_icon {
+        height: 100px;
+        width: 100px;
+    }
+
+    .p_p {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .h_main {
+        font-size: 30px;
+    }
+
+    .list_of_topic {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .list_item {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .p_main {
+        font-size: 20px;
+    }
+
+    .back {
+        font-size: 25px;
+        padding: 5px 15px;
+    }
+}

@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding:0px;
+}
+.img1 {
+    width: 100vw;
+    height: 50vh;
+}
+.img2{
+    display:none;
+}
+.column1 {
+    padding:10px;
+}
+
+.heading {
+    font-family: "Open Sans";
+    margin-bottom: 5px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top:0px;
+}
+
+.desc {
+    font-family: "Open Sans";
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.propertiesCon {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.propertyEl {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 45vw;
+}
+
+.propertyEl h1 {
+    color: #176fff;
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.propertyEl p {
+    color: #323f4b;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+@media(min-width:768px) {
+
+    .heading {
+        font-size: 32px;
+    }
+
+    .desc {
+        font-size: 20px;
+    }
+
+    .column1 {
+        padding:5px 20px;
+    }
+
+    .propertyEl {
+       width:40vw;
+    }
+    
+}
+
+@media(min-width:992px) {
+    .mainContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .column1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 50vw;
+    }
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        display:inline;
+        width:50vw;
+    }
+
+    .propertyEl {
+        width: 20vw;
+    }
+
+    .heading {
+        font-size: 35px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .desc {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.div {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-bg.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Bree Serif";
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.div2 {
+    background-color: #222222;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Bree Serif";
+    padding: 30px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.div3 {
+    background-color: #222222;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Bree Serif";
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.main {
+    text-align: center;
+    background-color: white;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    padding: 40px ;
+}
+
+.h_main {
+    color: #0f0e46;
+    padding: 20px;
+    font-size: 55px;
+}
+.p_main {
+    color: #7b8794;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.book {
+    background-color: #f19116;
+    color: white;
+    font-size: 35px;
+    padding:10px 20px;
+    margin: 20px 15px;
+}
+.h2 {
+    text-align: left;
+    color: #f19116;
+    font-size: 65px;
+}
+.flat_type {
+    border-radius: 15px;
+    background-color: white;
+    margin:30px 0px;
+}
+.info {
+    text-align: left;
+    padding: 0px 20px;
+}
+.p_type {
+    color: #6c6b70;
+    font-size: 35px;
+}
+.h_type {
+    color: #253263;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.im_flat {
+    height: 23vh;
+    width: 30vw;
+}
+.h21 {
+    text-align: left;
+    color: #f19116;
+    font-size: 60px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.p_des {
+    color: white;
+    font-size: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom:50px;
+}
+.icon {
+    height: 60px;
+    width: 70px;
+    padding-left: 20px;
+}
+@media(min-width:992px){
+    .div {
+        width: 550px;
+    }
+
+    .div2 {
+        width: 550px;
+        padding:10px;
+    }
+
+    .div3 {
+        width: 550px;
+    }
+
+    .main {
+        padding:10px;
+    }
+
+    .flat_type {
+        border-radius: 15px;
+        background-color: white;
+        margin: 5px 0px;
+    }
+
+    .h_main {
+        font-size: 35px;
+    }
+
+    .h_type {
+        font-size: 35px;
+    }
+
+    .p_main {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .info {
+        text-align: left;
+        padding: 0px 10px;
+    }
+
+    .p_type {
+        font-size: 18px;
+    }
+
+    .p_des {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .h2 {
+        text-align: left;
+        color: #f19116;
+        font-size: 35px;
+    }
+
+    .h21 {
+        font-size: 35px;
+    }
+
+    .im_flat {
+        height: 205px;
+        width: 200px;
+    }
+
+    .icon {
+        height: 35px;
+        width: 50px;
+        padding-left: 20px;
+    }
+
+    .book {
+        background-color: #f19116;
+        color: white;
+        font-size: 20px;
+        padding: 5px 10px;
+        margin: 15px 10px;
+    }
+}

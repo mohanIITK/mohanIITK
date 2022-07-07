@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.div {
+    height: 100vh;
+    width: 100vw;
+    padding:5px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.mainImg {
+    height: 40vh;
+    width:100vw;
+    align-self: center;
+}
+.im {
+    height: 20vh;
+    width: 45vw;
+    padding-bottom: 10px;
+}
+.h_main {
+    color: #183b56;
+    font-family: "Bree Serif";
+    font-size: 65px;
+    padding-top: 5px;
+}
+.p_main {
+    color: #616e7c;
+    font-family: "Bree Serif";
+    font-size: 35px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.tech {
+    height: 100vh;
+    width: 100vw;
+    margin-left:auto;
+    margin-right:auto;
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png");
+    background-size: cover;
+}
+
+.t_tech {
+    background-color: #ffffff;
+    height: 22vh;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 35px;
+}
+
+.h_tech {
+    color: #5752ab;
+    font-family: "Bree Serif";
+    font-size: 45px;
+    padding: 10px 0px;
+}
+
+.p_tech {
+    font-family: "Roboto";
+    color: #323f4b;
+    font-size: 35px;
+    padding: 15px 0px;
+}
+
+.book_tech {
+    font-family: "Roboto";
+    margin-right: 20px;
+    font-size: 30px;
+    padding: 10px 20px;
+}
+
+.diwali {
+    height: 100vh;
+    width: 100vw;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    background-color: #e6f6ff;
+}
+
+.top {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png");
+    height: 30vh;
+    background-size: cover;
+    margin-bottom:30px;
+}
+
+.h_diwali {
+    color: #ffffff;
+    font-family: "Caveat";
+    font-size: 76px;
+    width: 50vw;
+    padding: 150px 30px;
+}
+
+.item {
+    text-align: center;
+    background-color: #ffffff;
+    width: 35vw;
+    height: 26vh;
+    border-radius: 9px;
+    padding: 28px;
+    margin: 25px;
+}
+
+.card_image {
+    height: 15vh;
+    width: 25vw;
+    margin:10px;
+}
+
+.card {
+    color: #616e7c;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.price {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 44px;
+    font-weight: 500;
+}
+
+.food {
+    height: 100vh;
+    width: 100vw;
+    margin-left:auto;
+    margin-right:auto;
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
+    background-size: cover;
+}
+
+.text {
+    background-color: #f6c56e;
+    height: 25vh;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 45px;
+}
+
+.h_food {
+    color: #323f4b;
+    font-family: "Bree Serif";
+    font-size:60px;
+}
+
+.p_food {
+    font-family: "Roboto";
+    color: #323f4b;
+    font-size: 40px;
+    margin:30px 0px;
+}
+
+.news {
+    height: 100vh;
+    width: 100vw;
+    margin-left:auto;
+    margin-right:auto;
+    background-image: url(" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");
+    background-size: cover;
+}
+
+.t_news {
+    background-color: #ffffff;
+    height: 32vh;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 30px;
+}
+
+.h_news {
+    font-size: 25px;
+}
+
+.h_new {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 35px;
+}
+
+.p_news {
+    font-family: "Roboto";
+    color: #7b8794;
+    font-size: 30px;
+}
+@media(min-width:992px){
+    .div {
+        width: 500px;
+        padding: 5px;
+    }
+
+    .h_main {
+        font-size: 24px;
+        padding-top: 5px;
+    }
+    .p_main {
+        font-size: 16px;
+    }
+
+    .im {
+        height: 150px;
+        width: 230px;
+        padding-bottom: 10px;
+    }
+
+    .mainImg {
+        height: 300px;
+        width: 450px;
+        align-self: center;
+    }
+
+    .tech {
+        width: 500px;
+    }
+
+    .t_tech {
+        height: 25vh;
+    }
+
+    .h_tech {
+        font-size: 25px;
+        padding: 0px 0px;
+    }
+
+    .p_tech {
+        font-size: 18px;
+        padding: 0px 0px;
+    }
+
+    .book_tech {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+
+    .diwali {
+        width: 500px;
+    }
+
+    .top {
+        height: 30vh;
+    }
+
+    .h_diwali {
+        font-size: 36px;
+        width: 250px;
+        padding: 60px 20px;
+    }
+
+    .item {
+        width: 160px;
+        padding: 14px;
+        margin: 15px;
+        height: 200px;
+    }
+
+    .card_image {
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+    }
+    .card {
+        font-size: 16px;
+    }
+    .price {
+        font-size: 18px;
+    }
+    .food {
+        width: 500px;
+    }
+    .text {
+        height: 25vh;
+        padding: 25px;
+    }
+    .h_food {
+        font-size: 30px;
+    }
+    .p_food {
+        font-size: 20px;
+        margin: 20px 0px;
+    }
+    .news {
+        width: 500px;
+    }
+    .t_news {
+        height: 38vh;
+        padding: 20px;
+    }
+    .h_news {
+        font-size: 10px;
+    }
+    .h_new {
+        font-size: 20px;
+    }
+    .p_news {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.div {
+    height: 100vh;
+    width: 100vw;
+    background-color: #1b1b1b;
+    padding: 25px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.div2 {
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1b1b1b;
+    padding: 25px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.main {
+    background-color: #e6f6ff;
+    border-radius: 5px;
+    height:25vh;
+}
+.im1 {
+    height: 25vh;
+    width: 33vw;
+}
+
+.im2 {
+    height: 23vh;
+    width: 30vw;
+}
+
+.im3 {
+    height: 40vh;
+    width: 60vw;
+
+}
+
+.h1 {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 60px;
+    margin: 30px 0px;
+}
+
+.h2 {
+    color: #183b56;
+    font-size: 50px;
+    font-family: "Bree Serif";
+    font-weight: bold;
+}
+
+.h3 {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 45px;
+}
+
+.h4 {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 50px;
+    margin: 30px 0px;
+}
+
+.h5 {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 66px;
+}
+
+.p1 {
+    color: #06070d;
+    font-size: 35px;
+    font-family: "Bree Serif";
+}
+
+.p2 {
+    color: #183b56;
+    font-size: 40px;
+    font-family: "Bree Serif";
+}
+
+.p3 {
+    color: #e4e7eb;
+    font-family: "Bree Serif";
+    font-size: 36px;
+}
+
+.p4 {
+    color: #9aa5b1;
+    font-size: 34px;
+    font-family: "Bree Serif";
+}
+
+.p5 {
+    color: #e4e7eb;
+    font-size: 40px;
+    font-family: "Roboto";
+    text-align: left;
+
+}
+
+.bt1 {
+    margin-top:80px;
+    margin-right: 320px;
+    padding:5px 30px;
+    font-size:35px;
+    align-self:flex-end;
+}
+
+.bt2 {
+    margin-top: 50px;
+    margin-right: 320px;
+    padding: 5px 30px;
+    font-size: 35px;
+    align-self: flex-end;
+}
+
+.bt3 {
+    margin-top: 40px;
+    font-size: 40px;
+    padding: 5px 30px;
+    margin-left: 20px;
+}
+@media(min-width:992px){
+    .div {
+        height: 100vh;
+        width: 500px;
+        padding: 15px;
+    }
+
+    .div2 {
+        height: 100vh;
+        width: 500px;
+        padding: 15px;
+    }
+
+    .main {
+        height: 250px;
+    }
+
+    .im1 {
+        height: 250px;
+        width: 200px;
+    }
+
+    .im2 {
+        height: 200px;
+        width: 180px;
+    }
+
+    .im3 {
+        height: 400px;
+        width: 450px;
+    }
+
+    .h1 {
+        font-size: 30px;
+        margin: 10px 0px;
+    }
+
+    .h2 {
+        font-size: 20px;
+    }
+
+    .h3 {
+        font-size: 16px;
+    }
+
+    .h4 {
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+
+    .h5 {
+        font-size: 26px;
+    }
+
+    .p1 {
+        font-size: 15px;
+    }
+
+    .p2 {
+        font-size: 16px;
+    }
+
+    .p3 {
+        font-size: 14px;
+    }
+
+    .p4 {
+        font-size: 14px;
+    }
+
+    .p5 {
+        font-size: 16px;
+    }
+
+    .bt1 {
+        margin-top: 20px;
+        margin-right: 100px;
+        padding: 5px 25px;
+        font-size: 20px;
+    }
+
+    .bt2 {
+        margin-top: 20px;
+        margin-right: 120px;
+        padding: 5px 25px;
+        font-size: 18px;
+    }
+
+    .bt3 {
+        margin-left: 10px;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+}

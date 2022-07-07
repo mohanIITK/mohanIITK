@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.mainContainer {
+    background-image: radial-gradient(#c294d1, #4b4a7e);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 10px;
+    min-height: 100vh;
+
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding:0px 40px;
+    font-family: "Roboto";
+}
+
+.cardEl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 15px;
+    min-width:90vw;
+}
+
+.quoteContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 70vw;
+    flex-grow: 1;
+}
+
+.kalam {
+    color: #5d408c;
+    font-size: 20px;
+    margin-bottom:0px;
+}
+
+.albert {
+    color: #2a4eaa;
+    font-size: 20px;
+}
+
+.gandhi {
+    color: #9e619b;
+    font-size: 20px;
+
+}
+
+.swami {
+    color: #391484;
+    font-size: 20px;
+}
+
+.quote {
+    color: #6e798c;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-family: "Roboto";
+}
+
+.author {
+    color: #081f32;
+    font-size: 20px;
+    font-family: "Roboto";
+    margin-bottom:0px;
+
+}
+
+.imageEl {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+@media(min-width:768px) {
+    .cardEl {
+        min-width: 60vw;
+        max-width:80vw;
+        padding: 20px;
+    }
+    .quoteContainer {
+        max-width: 50vw;
+        flex-grow: 1;
+    }
+    .heading {
+        font-size: 40px;
+    }
+
+    .quote {
+        font-size: 18px;
+    }
+
+    .author {
+        font-size: 25px;
+    }
+
+    .imageEl {
+        width: 150px;
+    }
+}
+@media(min-width:992px){
+    .cardEl {
+        min-width:50vw;
+        max-width: 50vw;
+        padding: 20px;
+    }
+}
