@@ -1,0 +1,1275 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.greeting-card-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/greeting-card-1-bg.png");
+    background-size: cover;
+    height: 80vh;
+    padding: 20px;
+}
+
+.greet {
+    color: #1f2933;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.greetheading {
+    color: #1f2933;
+    font-family: "Playfair Display";
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.new-year {
+    font-size: 75px;
+}
+
+.greet-text-container {
+    text-align: center;
+    height:60vh;
+}
+
+.greet-text {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 24px;
+}
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width:55vw;
+    z-index: 1;
+    text-align:right;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction:column;
+}
+.navlinkDropdown {
+    text-decoration: none;
+    color: #333131;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Open Sans";
+    padding:5px 10px;
+}
+.navLinkCourse:hover {
+    color: #bfaf1d;
+    text-decoration: underline;
+}
+.navlinkDropdown:hover {
+    color: #bfaf1d;
+    text-decoration: underline;
+    background-color: white;
+}
+.navLinkCourseSmall:hover {
+    text-align: right;
+    color: #bfaf1d;
+    text-decoration: underline;
+}
+.nodisplay {
+    display: none;
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ebecf0;
+}
+
+.navContainer2 {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlinkSmallCon {
+    display: flex;
+    flex-direction: row;
+}
+
+.timeCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:45vw;
+}
+
+.date {
+    font-size: 30px;
+    font-family: "Impact";
+    color: #123F6D;
+}
+
+.navlinksmallContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 55vw;
+}
+
+.navlinksmall, .navLinkCourseSmall {
+    color: #333131;
+    text-decoration: none;
+    margin-right: 20px;
+    text-align: right;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0px;
+    padding:10px 5px;
+    font-family: "Open Sans";
+    border: 1px solid #e7e5ea;
+    width: 55vw;
+}
+
+.navlinkCon {
+    display: none;
+}
+
+.navlink,
+.navlinkBtn, .navLinkCourse {
+    text-decoration: none;
+    color: #333131;
+    padding: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Open Sans";
+}
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+}
+
+.courseLink:hover, .examLink:hover {
+    color: #bfaf1d;
+    text-decoration: underline;
+}
+
+.navlink:hover, .navlinksmall:hover {
+    color: #bfaf1d;
+    text-decoration: underline;
+    background-color: white;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.corousel-container {
+    width: 97vw;
+    order: -2;
+    margin-bottom: 10px;
+}
+
+.carouselImage {
+    width: 98vw;
+}
+
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introCon {
+    order: -1;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: #dce0e0 1px 2px 5px 5px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.myImage {
+    width: 32vw;
+    border-radius: 250px;
+}
+
+.quoteIcon {
+    color: darkred;
+    align-self: flex-start;
+    margin-bottom: 5px;
+}
+.quoteRightIcon {
+    color: darkred;
+    align-self: flex-end;
+    margin-top: 1px;
+}
+
+.introText {
+    font-family: "Lucida Sans";
+    font-size: 16px;
+    margin:2px;
+}
+
+.linkCon {
+    order: 0;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    padding: 10px;
+    box-shadow: #dce0e0 1px 2px 5px 5px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.calendarIcon {
+    color: #0d2436;
+}
+.bulbIcon{
+    height:15px;
+    width:15px;
+}
+.linkIcon{
+    height:15px;
+    width:20px;
+    margin-right:7px;
+    margin-left:10px;
+}
+.linkHeading {
+    font-family: "Georgia";
+    font-weight:bold;
+    font-size: 28px;
+    text-align: center;
+    color: #693bbf;
+    text-decoration: underline;
+}
+
+.date2 {
+    align-self: flex-end;
+    font-family: "Georgia";
+    font-size: 18px;
+    color: #BF7F3F;
+}
+
+.date_2 {
+    margin-left: 5px;
+}
+.examLinkCon {
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+    padding:10px;
+}
+
+.examLink {
+    font-family: "Georgia";
+    text-decoration: none;
+    color: #1a1717;
+    font-weight: bold;
+    font-size: 16px;
+}
+.myworkCon {
+    padding: 5px;
+    background-color: #D9EEF6;
+}
+.worksubHeading {
+    font-size: 28px;
+    padding-left: 10px;
+    color: #821B6D;
+    font-family:"Georgia";
+}
+
+.staticWebpageCon, .staticWebsiteCon, .responsiveWebpageCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.staticImg, .staticWebsite, .responsiveWebpage {
+    height: 250px;
+    width: 160px;
+    margin: 10px;
+}
+.responsiveWebpage2 {
+    height: 250px;
+    width: 90vw;
+    max-width:400px;
+    margin: 10px;
+}
+.staticImg:hover, .staticWebsite:hover, .responsiveWebpage:hover, .responsiveWebpage2:hover {
+    border: 3px solid #1818F0;
+    padding: 1px;
+    border-radius: 5px;
+}
+.courseCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hiddenContainer {
+    display: none;
+}
+
+.courseMainHeading, .myworkMainHeading {
+    font-family: "Georgia";
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.courseMaterialCon {
+    background-color: #f7f5f5;
+    padding: 5px;
+}
+
+.courseLinkCon {
+    display: flex;
+    flex-direction: column;
+    box-shadow: #dce0e0 1px 2px 5px 5px;
+    border-radius: 10px;
+    width: 100vw;
+    padding: 10px;
+    margin: 10px;
+}
+
+.courseTypeHeading {
+    font-family: "Georgia";
+    text-decoration: underline;
+    text-align: center;
+    color: #ab3007;
+    font-size: 35px;
+}
+
+.courseLink {
+    font-family: "Georgia";
+    text-decoration: none;
+    color: #1a1717;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.notAvail {
+    text-decoration: line-through;
+}
+
+.arrowicon {
+    margin-right: 3px;
+}
+
+.footer {
+    padding: 20px;
+    background-color: #0d2436;
+}
+
+.footerTopCon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footerImg {
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+}
+
+.imageCon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nameCon {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    width: 45vw;
+}
+
+.nameAndContactCon {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactCon {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.mobile, .email {
+    color: #9aa5b1;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight:bold;
+}
+.emailIITK, .mobileClick {
+    color: #9aa5b1;
+    font-size: 18px;
+    font-weight: bold;
+}
+.emailIITK:hover, .mobileClick:hover,.mobile:hover,.email:hover {
+    color: #C18A38;
+    text-decoration: none;
+}
+
+.name {
+    color: #cced00;
+    font-size: 20px;
+}
+
+.specialise {
+    color: #9aa5b1;
+    font-size: 16px;
+}
+
+.phoneCon, .emailCon {
+    display: none;
+}
+
+.footerLinkCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footerExternalLinkCon {
+    display: none;
+}
+
+.footerExternalLink {
+    color: #9aa5b1;
+    margin-right: 10px;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+.verticalLine {
+    border-right: 3px solid white;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.footerExternalLink:hover {
+    color: #bfaf1d;
+    text-decoration: underline;
+}
+
+.iconCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 25vw;
+}
+
+.facebookIcon, .instagramIcon, .linkedinIcon, .twitterIcon, .gmailIcon {
+    height: 30px;
+    width: 30px;
+    margin: 2px;
+}
+
+.footerHr {
+    background-color: #5a7184;
+    height: 1px;
+}
+
+.copyright {
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+}
+
+.copyrightLink {
+    text-decoration: none;
+}
+.copyrightLink:hover {
+    color: #bfaf1d;
+    text-decoration: underline;
+}
+.responsiveWebCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.vrWebsiteCon, .ecommWebsiteCon, .portfolioWebsiteCon, .designWebsiteCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: #dce0e0 1px 2px 5px 5px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    width: 90vw;
+}
+
+.vrCarousel-container, .ecommCarousel-container, .portfolioCarousel-container, .designCarousel-container {
+    width: 80vw;
+    height: 30vh;
+    order: -1;
+    box-shadow: #dce0e0 1px 2px 5px 5px;
+    border-radius: 5px;
+}
+
+.vrCarouselImage, .ecommCarouselImage, .portfolioCarouselImage, .designCarouselImage {
+    width: 80vw;
+    height: 30vh;
+    border-radius: 5px;
+}
+
+.vrWebsiteDescCon, .ecommWebsiteDescCon, .portfolioWebsiteDescCon, .designWebsiteDescCon {
+    padding: 10px;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.workMainLinkHeading {
+    font-size: 28px;
+    font-family: "Georgia";
+}
+.workList{
+    padding-left:0px;
+    list-style-type:circle;
+}
+.workDesc {
+    font-size: 18px;
+    font-family: "Open Sans";
+}
+.workDesc2 {
+    font-size: 20px;
+    font-family: "Open Sans";
+}
+.gamesCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.searchBookCon {
+    width: 90vw;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+    box-shadow: #dce0e0 1px 2px 5px 5px;
+    border-radius: 9px;
+    background: white;
+    height: 650px;
+    max-height: 650px;
+    margin: 10px;
+}
+
+.searchBookTopCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("https://assets.ccbp.in/frontend/dynamic-webapps/book-search-bg.png");
+    height: 230px;
+    padding: 50px;
+}
+
+.bookSearchHeading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 35px;
+}
+
+.bookSearchnoresult,
+.booksearchresultHeading {
+    color: #323f4b;
+    font-size: 30px;
+    font-family: "Roboto";
+    padding: 10px 20px;
+}
+
+.booksearchresultCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    padding: 5px;
+}
+
+.bookCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+}
+
+.bookImage {
+    width: 150px;
+    height: 220px;
+}
+
+.authorText {
+    font-size: 18px;
+    color: #323f4b;
+    text-align: center;
+}
+
+.wikipediaCon {
+    padding: 30px;
+    width: 90vw;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+    box-shadow: #dce0e0 1px 2px 5px 5px;
+    border-radius: 9px;
+    background: white;
+    height: 650px;
+    max-height: 650px;
+    margin: 10px;
+}
+
+.wiki-search-header {
+    margin-bottom: 20px;
+}
+
+.wiki-logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    font-size: 18px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d5cdcd;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.search-results {
+    overflow-y: scroll;
+}
+
+.result-item {
+    margin-bottom: 20px;
+}
+
+.result-title {
+    font-size: 22px;
+}
+
+.link-description {
+    color: #444444;
+    font-size: 15px;
+}
+
+.result-url {
+    color: #006621;
+    text-decoration: none;
+}
+
+.typingCon {
+    background-image: linear-gradient(to left, #dac0ff, #f3eaff);
+    padding: 30px;
+    width: 90vw;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Roboto";
+    box-shadow: #dce0e0 1px 2px 5px 5px;
+    border-radius: 9px;
+    margin: 10px;
+    height: 650px;
+    max-height: 650px;
+}
+
+.typingTimerCon {
+    display: flex;
+    flex-direction: row;
+}
+
+.typingFormCon {
+    border: 1px solid #9aa5b1;
+    border-radius: 15px;
+    background-color: #f2ebfe;
+}
+
+.typingMainHeading {
+    color: #690cb0;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.typingDesc {
+    color: #3e4c59;
+    font-size: 16px;
+}
+
+.typingclockImage {
+    height: 50px;
+    width: 50px;
+    margin-right: 30px;
+}
+
+.typingCounter {
+    font-size: 40px;
+}
+
+.typingQuoteR {
+    font-size: 16px;
+}
+
+.typingFormCon {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.typingBtnCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.typingstartbtn {
+    background-color: #8F7E7E;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.typingsubmitbtn {
+    background-color: #690cb0;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.typingresetbtn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.wordCloudCon {
+    width: 90vw;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto";
+    box-shadow: #dce0e0 1px 2px 5px 5px;
+    border-radius: 9px;
+    background: white;
+    height: 650px;
+    max-height: 650px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.wordsCon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.wordsuserInput {
+    width: 80%;
+}
+
+.word_style {
+    margin: 10px;
+}
+
+.wordsaddbtn {
+    color: white;
+    background-color: #565b6e;
+    border-width: 0;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.wordsErrorMsg {
+    color: #f62c3b;
+    font-size: 18px;
+}
+
+.randomJokeCon {
+    width: 90vw;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    box-shadow: #dce0e0 1px 2px 5px 5px;
+    border-radius: 9px;
+    background: white;
+    height: 650px;
+    max-height: 650px;
+    margin: 10px;
+    padding: 10px;
+    background-image: linear-gradient(to right, #49c4ee, #6e87d6);
+}
+
+.jokeImage {
+    width: 300px;
+    height: 300px;
+}
+
+.jokeDesc {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+.jokeButton {
+    color: #6c8bd8;
+    background-color: #ffffff;
+    font-size: 24px;
+    width: 120px;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+.numberfactsCon {
+    width: 90vw;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    box-shadow: #dce0e0 1px 2px 5px 5px;
+    border-radius: 9px;
+    background: white;
+    height: 650px;
+    max-height: 650px;
+    margin: 10px;
+    padding: 20px;
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/numbers-fact-bg.png");
+    background-size: cover;
+}
+
+.numfactHeading {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.inputNumFacts {
+    width: 250px;
+}
+
+.spinnerFacts {
+    color: #ffffff;
+}
+
+.numberFactText {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media(min-width:576px) {
+    .staticImg, .staticWebsite, .responsiveWebpage {
+        width: 200px;
+        height: 280px;
+    }
+    .responsiveWebpage2 {
+        width: 400px;
+        max-width:460px;
+        height: 280px;
+    }
+    .courseLinkCon {
+        padding: 10px 50px;
+    }
+
+    .facebookIcon, .instagramIcon, .linkedinIcon, .twitterIcon, .gmailIcon {
+        height: 40px;
+        width: 40px;
+        margin: 5px;
+    }
+
+    .iconCon {
+        width: 30vw;
+    }
+
+    .introText {
+        font-size: 17px;
+    }
+    .vrWebsiteCon, .ecommWebsiteCon, .portfolioWebsiteCon, .designWebsiteCon {
+        padding: 20px;
+        width: 80vw;
+    }
+    .vrCarousel-container, .ecommCarousel-container, .portfolioCarousel-container, .designCarousel-container {
+        width: 75vw;
+    }
+
+    .vrCarouselImage, .ecommCarouselImage, .portfolioCarouselImage, .designCarouselImage {
+        width: 75vw;
+    }
+
+    .workList {
+        padding-left: 20px;
+    }
+}
+
+@media(min-width:768px) {
+    .dropdown-content {
+        position: absolute;
+        width: 220px;
+        text-align:left;
+    }
+    .navlinkDropdown {
+        font-size: 20px;
+        padding:5px 15px;
+    }
+    .navlinkCon {
+        display: inline;
+    }
+
+    .navlinkSmallCon,
+    .navlinkBtn {
+        display: none;
+    }
+
+    .profileContainer {
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 10px;
+        flex-wrap: nowrap;
+        padding: 5px;
+    }
+
+    .courseLinkCon {
+        width: 80vw;
+    }
+
+    .courseLink {
+        font-size: 17px;
+    }
+
+    .hiddenContainer {
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        margin-left: 7px;
+    }
+    .examLinkCon{
+        padding:5px;
+    }
+    .corousel-container {
+        display: none;
+    }
+
+    .corousel-container2 {
+        width: 40vw;
+        height: 38vh;
+        margin-bottom: 10px;
+    }
+
+    .carouselImage2 {
+        width: 40vw;
+        height: 38vh;
+    }
+
+    .linkCon {
+        display: none;
+    }
+
+    .linkCon2 {
+        width: 40vw;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        box-shadow: #dce0e0 1px 2px 5px 5px;
+        border-radius: 10px;
+    }
+    .linkIcon {
+        margin-left: 0px;
+    }
+    .counter{
+        margin-bottom:10px;
+    }
+    .introCon {
+        order: 1;
+        width: 60vw;
+        padding: 10px;
+    }
+
+    .name {
+        font-size: 24px;
+    }
+
+    .specialise {
+        font-size: 18px;
+    }
+
+    .mobile, .email {
+        font-size: 16px;
+    }
+
+    .myImage {
+        width: 20vw;
+        border-radius: 250px;
+    }
+
+    .imageCon {
+        width: 50vw;
+    }
+    .staticImg, .staticWebsite, .responsiveWebpage {
+        height: 320px;
+        width: 230px;
+        margin: 10px;
+    }
+    .responsiveWebpage2 {
+        height: 320px;
+        width: 500px;
+        max-width: 500px;
+    }
+    .footerLinkCon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 50vw;
+    }
+
+    .iconCon {
+        width: 35vw;
+        margin-bottom: 10px;
+    }
+
+    .footerExternalLinkCon {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .vrWebsiteCon, .ecommWebsiteCon, .portfolioWebsiteCon, .designWebsiteCon {
+        padding: 10px;
+        width: 45vw;
+        align-self:flex-start;
+
+    }
+    .vrCarousel-container, .ecommCarousel-container, .portfolioCarousel-container, .designCarousel-container {
+        width: 40vw;
+    }
+    .portfolioWebsiteCon{
+        order:-1;
+    }
+    .vrCarouselImage, .ecommCarouselImage, .portfolioCarouselImage, .designCarouselImage {
+        width: 40vw;
+    }
+    .workDesc {
+        font-size: 17px;
+    }
+    .bookCon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+    }
+    .bookImage {
+        width: 180px;
+        height: 270px;
+    }
+    .authorText{
+        font-size:20px;
+    }
+}
+
+@media(min-width:992px) {
+    .introText {
+        font-size: 18px;
+        margin:5px;
+    }
+    .courseLinkCon {
+        width: 40vw;
+        padding: 10px;
+    }
+    .date2{
+        padding-right:10px;
+    }
+    .footerExternalLink {
+        font-size: 20px;
+        margin-right: 15px;
+    }
+    .courseLink {
+        font-size: 15px;
+    }
+    .examLinkCon {
+        padding: 0px 0px 10px 0px;
+    }
+    .examLink {
+        font-size: 20px;
+    }
+    .staticImg, .staticWebsite, .responsiveWebpage {
+        height: 350px;
+        width: 250px;
+        margin: 10px;
+    }
+    .responsiveWebpage2 {
+        height: 350px;
+        width: 460px;
+        max-width:460px;
+        margin: 10px;
+    }
+    .worksubHeading {
+        font-size: 32px;
+    }
+}
+@media(min-width:1050px){
+    .responsiveWebpage2 {
+        height: 350px;
+        width: 500px;
+        max-width:500px;
+    }
+}
+@media(min-width:1200px) {
+    .navlink {
+        font-size: 25px;
+    }
+    .courseLinkCon {
+        padding: 10px;
+    }
+
+    .courseLink {
+        font-size: 17px;
+    }
+
+    .nameAndContactCon {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 80vw;
+    }
+
+    .nameCon {
+        width: 20vw;
+    }
+
+    .contactCon {
+        display: none;
+    }
+
+    .phoneCon {
+        display: flex;
+        flex-direction: column;
+        width: 16vw;
+    }
+
+    .emailCon {
+        display: flex;
+        flex-direction: column;
+        width: 25vw;
+    }
+
+    .footerLinkCon {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+    }
+
+    .iconCon {
+        width: 18vw;
+        margin-left: 2px;
+        padding-bottom: 0px;
+    }
+
+    .facebookIcon, .instagramIcon, .linkedinIcon, .twitterIcon, .gmailIcon {
+        height: 30px;
+        width: 30px;
+        margin: 1px;
+    }
+
+    .footerExternalLink {
+        margin-right: 2px;
+    }
+
+    .footerExternalLinkCon {
+        margin-top: 2px;
+        width: 25vw;
+    }
+    .staticImg, .staticWebsite, .responsiveWebpage {
+        height: 400px;
+        width: 300px;
+        margin: 15px;
+    }
+    .responsiveWebpage2 {
+        height: 400px;
+        width: 680px;
+        max-width:680px;
+        margin: 15px;
+    }
+    .vrWebsiteCon, .ecommWebsiteCon, .portfolioWebsiteCon, .designWebsiteCon {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 47vw;
+    }
+
+    .vrCarousel-container, .ecommCarousel-container, .portfolioCarousel-container, .designCarousel-container {
+        width: 25vw;
+        height: 300px;
+        order: 1;
+    }
+
+    .vrCarouselImage, .ecommCarouselImage, .portfolioCarouselImage, .designCarouselImage {
+        width: 25vw;
+        height: 300px;
+    }
+    .workMainLinkHeading{
+        font-size:24px;
+    }
+    .workList {
+        padding-left: 5px;
+    }
+    .ecommWebsiteCon {
+        order: -2;
+    }
+}

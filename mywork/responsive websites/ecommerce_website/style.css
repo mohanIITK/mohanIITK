@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.corousel-container {
+    height:400px;
+}
+.link{
+    font-size:18px;
+}
+.logo {
+    width: 163px;
+    height: 56px;
+}
+.serviceMainCon{
+    margin-top:10px;
+}
+.serviceMainHeading {
+    color: #183b56;
+    font-size: 35px;
+    font-weight: bold;
+}
+.serviceDesc {
+    color: #616c7c;
+    font-size: 25px;
+}
+.serviceCon {
+    background-color: white;
+    border-radius: 10px;
+}
+.serviceHeading {
+    color: #1f2933;
+    font-size: 25px;
+}
+.serviceDesc {
+    color: #9aa5b1;
+    font-size: 23px;
+}
+.card1 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-headphones-bg.png");
+    background-size: cover;
+    height: 350px;
+    border-radius: 16px;
+}
+.card2 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-laptops-bg.png");
+    background-size: cover;
+    height: 350px;
+    border-radius: 16px;
+}
+.productMainHeading {
+    color: #183b56;
+}
+.productHeading {
+    color: white;
+}
+.productDesc {
+    color: white;
+    font-size: 20px;
+}
+.viewBtn {
+    color: #ff9f00;
+    border-radius: 35px;
+    border: 1px solid white;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.products-section-link {
+    color: #ff9f00;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 700;
+}
+.modalTitle {
+    color: #183b56;
+}
+.modalProductDesc {
+    color: #323f4b;
+}
+.modalCategory {
+    color: #183b56;
+    font-weight: bold;
+}
+.offerCon {
+    background-image: linear-gradient(to right, #f49541, #dd5d97);
+}
+.offerHeading {
+    color: #ad2167;
+    font-family: "Bree serif";
+}
+.offerDesc {
+    color: white;
+    font-size: 25px;
+}
+.text-bold {
+    font-weight: bold;
+}
+.blogMainCon {
+    background-color: white;
+}
+.blogMainHeading {
+    color: #183b56;
+    font-size: 50px;
+    font-weight: bold;
+}
+.blogCon {
+    background-color: white;
+    border-radius: 10px;
+}
+.blogHeading {
+    color: #959ead;
+    font-size: 15px;
+}
+.blogSubHeading {
+    color: #183b56;
+    font-size: 30px;
+}
+.blogDesc {
+    color: #959ead;
+    font-size: 23px;
+}
+.blogLink {
+    color: #ff9f00;
+    font-size: 20px;
+}
+.exploreMainCon {
+    background-color: #f5f7fa;
+    font-family: "Roboto";
+}
+.exploreMainHeading {
+    color: #183b56;
+    font-size: 40px;
+    font-weight: bold;
+}
+.exploreCon {
+    background-color: white;
+    border-radius: 10px;
+}
+.exploreHeading {
+    color: #183b56;
+    font-size: 26px;
+    font-weight: bold;
+}
+.exploreImg {
+    width: 100%;
+    border-radius: 20px;
+}
+.image_tv {
+    width: 100%;
+    border-radius: 20px;
+}
+.exploreProduct {
+    color: #1f2933;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.exploreLink {
+    color: #ff9f00;
+    font-weight: bold;
+}
+.contactCon {
+    background-color: #f5f7fa;
+}
+.contactHeading {
+    color: #183b56;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contactBtn {
+    color: #ff9f00;
+    border: 3px solid #ff9f00;
+    border-radius: 0px;
+    font-size: 25px;
+}
+.footerCon {
+    background-color: #0d2436;
+    font-family: "Roboto";
+}
+.footerLogo {
+    height: 60px;
+    width: 160px;
+}
+.iconFooter {
+    color: #5a7184;
+    border-radius: 90px;
+    background-color: #152c3e;
+    padding: 10px;
+}
+.footerPara {
+    color: #5a7184;
+    font-size: 18px;
+    padding: 1px;
+    margin: 5px;
+}
+.footerHeading {
+    font-size: 25px;
+    color: #5a7184;
+}
+.hrlineFooter {
+    background-color: #5a7184;
+    height: 1px;
+}
+@media(min-width:768px){
+    .corousel-container {
+        height:450px;
+    }
+}
+@media(min-width:992px) {
+    .serviceMainCon {
+        margin-top: 5px;
+    }
+    .corousel-container {
+        height: 85vh;
+    }
+}
