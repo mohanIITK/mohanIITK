@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.maincontainer {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/travel-sm-bg.png");
+    text-align: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    height:100vh;
+
+}
+
+.heading {
+    font-family: "Roboto";
+    color: white;
+    font-size: 40px;
+}
+
+.desc {
+    font-family: "Roboto";
+    margin-bottom: 60px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.started {
+    font-family: "Roboto";
+    color: #183b56;
+    background-color: white;
+    border-radius: 40px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 15px 80px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.know {
+    background-color: transparent;
+    font-family: "Roboto";
+    border-radius: 40px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding: 15px 80px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+@media(min-width:768px) {
+    .maincontainer {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/travel-md-bg.png");
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:200px;
+        
+    }
+
+    .heading {
+        font-size: 35px;
+    }
+
+    .container2 {
+        flex-direction: row;
+    }
+    .desc {
+        font-size: 20px;
+    }
+    .started {
+        font-size: 18px;
+        padding: 15px 40px;
+        margin-bottom: 0px;
+    }
+
+    .know {
+        font-size: 18px;
+        padding: 15px 40px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+    }
+
+}
+
+@media(min-width:992px){
+    .maincontainer {
+        padding: 250px;
+    }
+    .heading {
+        font-size: 40px;
+    }
+    .desc {
+        font-size: 25px;
+    }
+    .started {
+        font-size: 25px;
+        padding: 15px 60px;
+        margin-bottom: 0px;
+    }
+
+    .know {
+        font-size: 25px;
+        padding: 15px 60px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+    }
+
+}
