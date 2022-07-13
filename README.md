@@ -5,3 +5,4 @@
 - Also very interested in learning new technologies and techniques. 
 - Currently, I learning the backend web development technology. 
 - Highly efficient and motivated towards self-learning.
+- https://mohanlallothiya.github.io/homepage/
