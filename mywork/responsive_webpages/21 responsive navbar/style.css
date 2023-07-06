@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.nodisplay {
+    display: none;
+}
+
+.navContainer {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navContainer2 {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height:12vh;
+}
+
+.navlinkSmallCon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.navlinksmall {
+    color: #594d6d;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 22px;
+    margin: 0px;
+    padding: 20px;
+    font-family: "Open Sans";
+    border: 1px solid #e7e5ea;
+    width: 100%;
+}
+
+.navlinkCon {
+    display: none;
+}
+
+.navlink,
+.navlinkBtn {
+    text-decoration: none;
+    color: #594d6d;
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Open Sans";
+}
+
+.signupsmall {
+    background-color: #ffdda9;
+    border-radius: 40px;
+    padding: 15px 30px;
+    margin: 15px;
+    border: none;
+}
+
+.signup {
+    background-color: #ffdda9;
+    border-radius: 40px;
+    padding: 15px 30px;
+    border: none;
+}
+
+.mainContainer {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/landing-page-sm-bg.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 88vh;
+    text-align: center;
+}
+
+.heading {
+    font-size: 50px;
+    color: white;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+@media(min-width:768px) {
+    .mainContainer {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/landing-page-lg-bg.png");
+    }
+
+    .heading {
+        font-size: 48px;
+        margin: 80px;
+    }
+
+    .navlinkCon {
+        display: inline;
+    }
+
+    .navlinkSmallCon,
+    .navlinkBtn {
+        display: none;
+    }
+
+}
+
+@media(min-width:992px) {
+    .heading {
+        margin: 120px;
+    }
+}
+
+@media(min-width:1200px) {
+    .heading {
+        font-size: 60px;
+        margin: 15vw;
+    }
+
+    .navlink {
+        font-size: 25px;
+    }
+}
