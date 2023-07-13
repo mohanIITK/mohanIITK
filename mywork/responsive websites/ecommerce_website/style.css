@@ -213,6 +213,11 @@
         margin-top: 5px;
     }
     .corousel-container {
-        height: 85vh;
+        height: 85%;
+    }
+}
+@media(min-width:1200px){
+    .corousel-container {
+        height:95%;
     }
 }
